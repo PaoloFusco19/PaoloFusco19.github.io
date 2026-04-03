@@ -11,10 +11,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
+				<style>
 			/* Sfondo personalizzato */
 			#bg {
 				background-image: url('images/sfondo.jpg');
+			}
+ 
+			/* Hover sui bottoni del menu */
+			#header nav ul li a {
+				transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, transform 0.15s ease;
+			}
+ 
+			#header nav ul li a:hover {
+				background: rgba(0, 0, 0, 0.55);
+				color: #ffffff;
+				border-color: rgba(255, 255, 255, 0.6);
+				box-shadow: 0 0 18px rgba(255, 255, 255, 0.15), inset 0 0 10px rgba(0, 0, 0, 0.3);
+				transform: scale(1.07);
 			}
 		</style>
 	</head>
