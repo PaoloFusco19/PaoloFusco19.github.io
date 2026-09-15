@@ -143,22 +143,7 @@
 
 								<!-- PROGETTO 2 -->
 								<!-- 
-								<h3>Bus Ticketing App — UX Redesign</h3>
-								<p>
-									Complete UX redesign of a mobile bus ticketing application ("Getting There"),
-									developed as a university assignment for a Usability and User Experience Design course,
-									following a user-centered design process.
-								</p>
-								<ul>
-									<li>5 user personas + 6 usage scenarios</li>
-									<li>Wireframes and interaction flows</li>
-									<li>Final report formatted as a structured PDF</li>
-								</ul>
-								<ul class="actions">
-									<li><a href="https://github.com/PaoloFusco19" class="button primary icon brands fa-github">View on GitHub</a></li>
-								</ul>
-
-								<hr />
+								
 							-->
 							
 								<h3>Image Restoration — Cervical Cancer Dataset (LBC)</h3>
@@ -178,6 +163,26 @@
 								</ul>
 
 								<hr />
+
+								<h3>HaMeR ViT-B Ablation Study</h3>
+                                <p>
+                                   Ablation study on the <strong>HaMeR (CVPR 2024)</strong> architecture: replacing the ViT-H backbone 
+                                   (632M parameters) with ViT-B (123M parameters) to analyze the trade-off between model size 
+                                   and 3D hand reconstruction quality. Trained on FreiHAND (130k images) on the DISI HPC cluster 
+                                   (NVIDIA L40, 48GB), achieving <strong>PA-MPJPE of 18.2mm</strong> vs 13.0mm of the original model 
+                                   with 81% fewer parameters.
+                                </p>
+                                <ul>
+                                     <li>ViT-B backbone integration with bicubic positional embedding interpolation (197→193 tokens)</li>
+                                     <li>Root-relative 3D keypoint loss — reduced Local MPJPE 4× (145mm → 35mm)</li>
+                                     <li>Progressive backbone freezing + mixed precision training (AMP) on SLURM cluster</li>
+                                     <li>Quantitative evaluation: PA-MPJPE, Local MPJPE, F@5mm on FreiHAND validation set</li>
+                                </ul>
+                                <ul class="actions">
+                                     <li><a href="https://github.com/PaoloFusco19/hamer-vitb-ablation" class="button primary icon brands fa-github">View on GitHub</a></li>
+                                </ul>
+
+                                <hr />
 
 								<h3>Detection and classification of vehicles in real-world traffic scenes</h3>
 								<p>
